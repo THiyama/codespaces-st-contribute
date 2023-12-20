@@ -1,0 +1,12 @@
+{
+    "name": "Streamlit Contributing Environment",
+    "image": "ghcr.io/thiyama/st-ubuntu-image:latest",
+    "settings": {
+        "terminal.integrated.shell.linux": "bin/bash"
+    },
+    "forwardPorts": [
+        3000,
+        8501
+    ],
+    "remoteUser": "root"
+}
