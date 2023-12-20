@@ -1,6 +1,8 @@
 {
     "name": "Streamlit Contributing Environment",
-    "image": "ghcr.io/thiyama/st-ubuntu-image:latest",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
     "settings": {
         "terminal.integrated.shell.linux": "bin/bash"
     },
