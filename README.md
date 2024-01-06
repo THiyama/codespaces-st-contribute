@@ -33,7 +33,8 @@ GitHub Codespaces Environment for Streamlit Contribution
     - git remote add remote https://github.com/streamlit/streamlit.git
     - git checkout develop
     - git submodule update --init
-    - git checkout -b feature/fires
+    - git checkout -b feature/fires 3eb3f84a3ef80b867f0f313b3149caacb9f88bd3
+        - 12月20日時点のコミットに基づいてブランチを作成します。（ハンズオンでの挙動固定のため）
 
 - Streamlit Contribute環境のビルド準備
     - cd lib
