@@ -127,7 +127,7 @@ GitHub Codespaces Environment for Streamlit Contribution
 ## パターン２：st.snowがあるなら、st.firesを作ってみよう
 続いては、Streamlitへの機能追加となります。今回の例では主に実装を扱いテストには触れていませんが、実際のContributeの際はこうしたテストも議論し実装する必要があることに注意しましょう。
 - 実行中のビルドサーバー（１つ目のターミナル）およびStreamlitアプリ（２つ目のターミナル）をCtrl+Cで停止します
-- st_firesの資材を移動し`st.fires()`を作成します。下記の操作は、１つ目のターミナルで行います。
+- st_fireの資材を移動し`st.fires()`を作成します。下記の操作は、１つ目のターミナルで行います。
     - cd /workspaces/codespaces-st-contribute
     - cp -r st_fire/streamlit/* streamlit/
 - Protocol Bufferの構成を変更した場合、コンパイルが必要なため、コンパイルを実行します
